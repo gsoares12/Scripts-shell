@@ -1,5 +1,11 @@
+#!/usr/bin/env bash
 #!/bin/bash
-#script for upgrade system
 
-sudo apt update -y
-sudo apt upgrade -y
+#Upgrade System 
+
+sudo apt-get update && sudo apt-get upgrade -s
+
+clear 
+
+echo "Upgrade System" 
+
